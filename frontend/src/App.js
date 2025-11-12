@@ -10,7 +10,7 @@ function App() {
 
   const fetchNews = async (query) => {
     setLoading(true);
-    const response = await fetch("https://sayankar144-ai-news-recommendation.hf.space/recommend", {
+    const response = await fetch("https://Sharmistha007-ai-news-recommendation.hf.space/recommend", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ query }),
